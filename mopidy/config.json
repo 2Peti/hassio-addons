@@ -6,7 +6,7 @@
     "url": "https://github.com/2Peti/hassio-addons/tree/master/mopidy",
     "startup": "application",
     "boot": "auto",
-    "image": "bestlibre/{arch}-mopidy",
+    "image": "pney0708/{arch}-mopidy",
     "audio": true,
     "options": {"local_scan": true,
 	        "options": []},
