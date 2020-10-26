@@ -16,7 +16,7 @@
 
     <authentication>
         <admin-user>admin</admin-user>
-        <admin-password>adminpw</admin-password>
+        <admin-password>hackme</admin-password>
     </authentication>
 
     <hostname>icecast</hostname>
