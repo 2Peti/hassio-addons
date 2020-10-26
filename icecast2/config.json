@@ -4,7 +4,7 @@
   "slug": "icecast2",
   "description": "Icecast2 Server",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "url": "https://github.com/lucasartoni/hassio-icecast",
+  "url": "https://github.com/2Peti/hassio-addons/tree/master/icecast2",
   "startup": "application",
   "boot": "auto",
   "init": false,
@@ -12,10 +12,10 @@
   "panel_icon": "mdi:radio",
   "panel_title": "Icecast2",
   "options": {
-    "source_password": "aaaa",
-    "admin_password": "bbbb",
-    "password": "cccc",
-    "relay_password": "dddd"
+    "source_password": "hackme",
+    "admin_password": "hackme",
+    "password": "hackme",
+    "relay_password": "hackme"
   },
   "schema": {
     "source_password": "str",
