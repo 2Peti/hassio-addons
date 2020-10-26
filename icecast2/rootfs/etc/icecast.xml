@@ -15,6 +15,7 @@
     </limits>
 
     <authentication>
+        <source-password>hackme</source-password>
         <admin-user>admin</admin-user>
         <admin-password>hackme</admin-password>
     </authentication>
