@@ -25,7 +25,7 @@
     </listen-socket>
        
    <mount>
-      <mount-name>/mopidy.mp3</mount-name>
+      <mount-name>/mopidy</mount-name>
       <fallback-mount>/usr/share/icecast/silence.mp3</fallback-mount>
       <fallback-override>1</fallback-override>
    </mount>
