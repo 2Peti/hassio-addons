@@ -1,6 +1,6 @@
 <icecast>
    <location>Earth</location>
-    <admin>icemaster@localhost</admin>
+    <admin>admin</admin>
 
     <limits>
         <clients>100</clients>
@@ -25,7 +25,7 @@
     </listen-socket>
        
    <mount>
-      <mount-name>/mopidy</mount-name>
+      <mount-name>/mopidy.mp3</mount-name>
       <fallback-mount>/usr/share/icecast/silence.mp3</fallback-mount>
       <fallback-override>1</fallback-override>
    </mount>
