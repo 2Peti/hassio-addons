@@ -23,13 +23,12 @@
     <listen-socket>
         <port>8000</port>
     </listen-socket>
-    
-    <mount>
-        <mount-name>/icecast.mp3</mount-name>
-        <stream-name>Icecast</stream-name>
-        <username>stream_user</username>
-        <password>stream_pw</password>
-    </mount>
+       
+   <mount>
+      <mount-name>/mopidy</mount-name>
+      <fallback-mount>/usr/share/icecast/silence.mp3</fallback-mount>
+      <fallback-override>1</fallback-override>
+   </mount>
 
     <http-headers>
         <header name="Access-Control-Allow-Origin" value="*" />
