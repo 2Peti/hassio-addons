@@ -26,9 +26,13 @@
     </listen-socket>
        
    <mount>
-      <mount-name>/mopidy</mount-name>
+      <mount-name>/jemne.mp3</mount-name>
       <fallback-mount>/usr/share/icecast/silence.mp3</fallback-mount>
       <fallback-override>1</fallback-override>
+      <audio_bitrate>64</audio_bitrate>
+      <audio_samplerate>44100</audio_samplerate>
+		<channels>2</channels>
+      <ice-bitrate>64</ice-bitrate>
    </mount>
 
     <http-headers>
